@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fitness website</title>
+  </head>
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <img src="Logo.png" class="logo" />
+        <ul>
+          <li><a href="#">Daily Excercises</a></li>
+          <li><a href="#">Diet tracker</a></li>
+          <li><a href="#">Your streak</a></li>
+          <li><a href="#">My Account</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>WELCOME TO CROSSFIT!</h1>
+        <p>
+          Your personalised fitness app for your benefit!<br />
+          Please login or create account to get exclusive feautures of crossfit
+        </p>
+        <div>
+          <button class="login-modal"><span></span>Login</button>
+          <!-- <button class="signup-modal"><span></span>Signup</button> -->
+        </div>
+      </div>
+    </div>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h2>Login</h2>
+      <form action="#">
+        <div class="input-box">
+          <label>✉️Email:</label>
+          <input type="email" class="email" required />
+        </div>
+        <div class="input-box">
+          <label>🔒Password:</label>
+          <input type="password" class="email" required />
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox" />Remember me</label>
+          <a href="#">Forgot password?</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="login-register">
+          <p id="account">
+            Don't have an account?
+            <a href="#" class="register-link">Register now</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
