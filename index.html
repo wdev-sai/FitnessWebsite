@@ -26,7 +26,6 @@
         </p>
         <div>
           <button class="login-modal"><span></span>Login</button>
-          <!-- <button class="signup-modal"><span></span>Signup</button> -->
         </div>
       </div>
     </div>
@@ -35,11 +34,13 @@
       <h2>Login</h2>
       <form action="#">
         <div class="input-box">
-          <label>✉️Email:</label>
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <label>Email</label>
           <input type="email" class="email" required />
         </div>
         <div class="input-box">
-          <label>🔒Password:</label>
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <label>Password</label>
           <input type="password" class="email" required />
         </div>
         <div class="remember-forgot">
@@ -48,14 +49,22 @@
         </div>
         <button type="submit" class="btn">Login</button>
         <div class="login-register">
-          <p id="account">
+          <p>
             Don't have an account?
-            <a href="#" class="register-link">Register now</a>
+            <a href="#" class="register-link">Register now!</a>
           </p>
         </div>
       </form>
     </div>
     <div class="overlay hidden"></div>
     <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
