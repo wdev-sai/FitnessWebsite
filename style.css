@@ -79,20 +79,7 @@
   position: relative;
   overflow: hidden;
 }
-.signup-modal {
-  width: 200px;
-  padding: 15px 0;
-  text-align: center;
-  margin: 20px 10px;
-  border-radius: 25px;
-  font-weight: bold;
-  border: 2px solid #d22b2b;
-  background: transparent;
-  color: #fff;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-}
+
 span {
   background: #d22b2b;
   height: 100%;
@@ -115,7 +102,7 @@ button:hover span {
   position: absolute;
   top: 1.2rem;
   right: 2rem;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #fff;
   cursor: pointer;
   border: none;
@@ -132,7 +119,7 @@ button:hover span {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
-  height: 200px;
+  height: 300px;
 
   /* background-color: white; */
   border: 0.25px solid #d22b2b;
@@ -160,14 +147,103 @@ h2 {
   color: white;
 }
 
-label {
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #fff;
+  margin: 30px 0;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 600;
+  padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+  position: absolute;
+  left: 300px;
+  font-size: 1.2em;
+  color: #fff;
+  line-height: 57px;
+}
+.remember-forgot {
+  font-size: 0.9em;
+  color: #fff;
+  font-weight: 500;
+  margin: -15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #d22b2b;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
   color: #fff;
 }
 
-#account {
+.btn {
+  width: 100%;
+  height: 45px;
+  background: #d22b2b;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+}
+
+.login-register {
+  font-size: 0.9em;
+  text-align: center;
+  font-weight: 500;
+  margin: 25px 0 10px;
+}
+
+.login-register a {
+  color: #d22b2b;
+  text-decoration: none;
+}
+
+.login-register a:hover {
+  text-decoration: underline;
   color: #fff;
 }
 
-.email {
-  width: 200px;
+.login-register p {
+  color: #fff;
+}
+.login-register p a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #d22b2b;
 }
