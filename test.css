@@ -107,7 +107,7 @@
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-  color: rgb(245, 233, 3)
+  color: #d22b2b
 
 }
 
@@ -184,7 +184,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  color: rgb(255, 242, 4)
+  color: #d22b2b
 
 }
 input {
@@ -224,7 +224,7 @@ input {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #667085;
+  color: #d22b2b;
 }
 
 #active {
