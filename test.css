@@ -1,4 +1,8 @@
+*{
+  margin: 0%;
+}
 #login {
+  margin: 0%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./fitness.jpg');
   position: relative;
   width: 100%;
