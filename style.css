@@ -247,3 +247,21 @@ h2 {
   font-weight: 600;
   color: #d22b2b;
 }
+/* My account page */
+.user h1 {
+  text-align: center;
+  color: #d22b2b;
+}
+.user-details {
+  text-align: center;
+}
+
+.actions {
+  text-align: center;
+  color: #d22b2b;
+}
+
+.banner a {
+  color: #d22b2b;
+  text-align: center;
+}
